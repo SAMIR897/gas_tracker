@@ -1,6 +1,6 @@
 # ⛽ Gas Tracker
 
-A Rust CLI tool that fetches real-time Ethereum gas prices from the Etherscan API.
+A sophisticated Ethereum gas tracking tool providing real-time insights into network congestion. Leveraging Rust’s efficiency, it analyzes recent blocks to suggest optimal priority and base fees. It features historical trend analysis and customizable alerts, ensuring users never overpay for transactions or experience unexpected delays during periods of high network activity.
 
 ## Features
 
@@ -40,4 +40,4 @@ Fetching current gas prices from Etherscan...
 
 - `reqwest` — HTTP client
 - `serde` — JSON deserialization
-- `dotenv` — Environment variable management
+- `dotenv` — Environment variable management for configuration
